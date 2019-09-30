@@ -2,7 +2,7 @@
 <h1 class="productName"><%= @product.name %></h1>
 <p class="productPrice"><%= @product.price %></p>
 <p class="productInventory"><%= @product.inventory %></p>
-<p class="postBody"><%= @product.description %></p>
+<p class="productBody"><%= @product.description %></p>
 
 <script type="text/javascript" charset="utf-8">
 $(function () {
@@ -13,7 +13,7 @@ $(function () {
       $(".productName").text(data["name"]);
       $(".productPrice").text(data["price"]);
       $(".productInventory").text(data["inventory"]);
-      $(".postBody").text(data["description"]);
+      $(".productBody").text(data["description"]);
 
       // re-set the id to current on the link
       $(".js-next").attr("data-id", data["id"]);
