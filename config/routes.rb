@@ -8,4 +8,7 @@ Rails.application.routes.draw do
   get '/products/:id/inventory', to: 'products#inventory'
 
     get "/products/:id/data", to: "products#data"
+
+    get 'products/:id/post_data', to: 'products#post_data'
+
 end
