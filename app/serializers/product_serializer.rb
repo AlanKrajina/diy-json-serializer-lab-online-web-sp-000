@@ -11,6 +11,7 @@ class ProductSerializer
     serialized_product += '"description": ' + product.description
 
     serialized_product += '}'
+    binding.pry
   end
 
 
