@@ -1,4 +1,4 @@
-class ProductSerializer 
+class ProductSerializer
 
 
 end
